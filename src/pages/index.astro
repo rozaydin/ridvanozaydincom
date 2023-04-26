@@ -1,0 +1,48 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Education from "../components/education/Education";
+import Services from "../components/services/Services";
+import Links from "../components/links/Links";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Certification from "../components/certification/Certification";
+import Testimonials from "../components/testimonials/Testimonials";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <div>
+        <img class="me" src="/assets/rozaydin.jpeg" />
+        <span class="text-start">Merhaba!</span>
+      </div>
+      <p class="text" style="text-align: justify;">
+        I am a software developer (located in Istanbul/Türkiye), proficient in a
+        wide variety of business applications. Experience in entire software
+        design and development process. Proven expertise with Java, NodeJS and
+        GoLang technologies, designing high performance, highly parallel
+        applications. Over the past years I have involved in creating complex
+        solutions for customers operating in energy, telecommunications, iot and
+        blockchain fields.
+      </p>
+
+      <Services />
+
+      <Testimonials />
+
+      <Links />
+
+      <Certification />
+
+      <Education />
+    </main>
+
+    <Footer />
+  </body>
+</html>

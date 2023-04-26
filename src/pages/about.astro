@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Company from '../components/company/Company';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import companies from '../data/companies.json';
+import Experience from '../components/experience/Experience';
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+    <body>
+      <Header title={SITE_TITLE} />
+
+      <Experience/>
+      
+      { 
+         companies.map(({name, company, url, position, period}) => <Company company={company} name={name} url={url} position={position} period={period} />)
+      }      
+
+      <Footer/>
+    </body>
+</html>

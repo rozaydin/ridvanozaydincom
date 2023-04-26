@@ -1,0 +1,44 @@
+[
+  {
+    "name": "freelance",
+    "company": "Freelance",
+    "url": "",
+    "position": "Software Developer",
+    "period": "2022 - *"
+  },
+  {
+    "name": "namebase",
+    "company": "Namebase",
+    "url": "https://www.namebase.io/",
+    "position": "Blockchain Developer",
+    "period": "2021-2022"
+  },
+  {
+    "name": "afiniti",
+    "company": "Afiniti",
+    "url": "https://www.afiniti.com/",
+    "position": "Team Lead",
+    "period": "2019-2021"
+  },
+  {
+    "name": "siemens",
+    "company": "Siemens",
+    "url": "https://new.siemens.com/tr/tr.html",
+    "position": "Software Architect",
+    "period": "2017-2019"
+  },
+  {
+    "name": "yaltes",
+    "company": "Yaltes",
+    "url": "https://www.yaltes.com/",
+    "position": "Software Developer",
+    "period": "2014-2017"
+  },
+  {
+    "name": "nortel",
+    "company": "Nortel Networks",
+    "url": "",
+    "position": "Software Developer",
+    "period": "2007-2014"
+  }
+]
