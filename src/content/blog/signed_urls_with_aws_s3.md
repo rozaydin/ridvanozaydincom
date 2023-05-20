@@ -4,28 +4,26 @@ description: "This post describes how to generate signed urls for both upload an
 pubDate: "Apr 26 2023"
 ---
 
-
 AWS offers many many services, and AWS S3 ( Simple Storage Service ) is one of the most fundemantal one ( This service is where i earn my living ). It allows you to store your content reliably and makes it available from any where in the world ( as long as you have internet connection ). Here is a beatiful graphic (see references for original content) that summarizes the capabilities of AWS S3:
 
 ![image aws_s3](/assets/blog/awsS3/aws_s3.png)
-
 
 This blog post is only about **creating signed urls to share files securely to a limited audience**. This scenario pops up very frequently for me when building software solutions, You do not want to grant access to your AWS S3 bucket but want to share a single object for a limited time. AWS S3 lets you achieve this via signed urls. A signed URL permits accessing to a single object within AWS S3. It contains the necessary authentication&authorization information and it also has an expiration ( you can create URLs valid for only 1 hour ). You can grant access to download an existing object and also grant access to upload an object as well.
 
 So how we create them ? Below is a piece of code ( part of my battle tested, production ready AWSS3Client ) that demonstrates how to:
 
-and as always, read the documentation :)
+and as always, read the documentation from here <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html">AWS JavaScript SDK</a>
+and look for:
 
-https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html and look for
+- @aws-sdk/client-s3
+- @aws-sdk/s3-request-presigner
 
-@aws-sdk/client-s3 and @aws-sdk/s3-request-presigner
-
-```
-import {  
+``` javascript
+import {
   PutObjectCommand,
   PutObjectCommandOutput,
   GetObjectCommand,
-  S3Client,  
+  S3Client,
 } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { ReadStream } from "fs";
@@ -48,7 +46,7 @@ export class AWSS3Client {
       },
       region: awsRegion,
     });
-  } 
+  }
 
   async createUploadSignedUrl(
     objectKey: string,
