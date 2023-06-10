@@ -4,7 +4,7 @@ description: "How create a CI/CD pipeline with Github Actions"
 pubDate: "June 10 2023"
 ---
 
-Github Actions is a CI/CD tool that is built into Github. It is a great tool to get started with it's even growing library of actions. In this blog post i like to share with you how to create a CI/CD pipeline with Github Actions. And the example will be the very much this page you are reading right now. First lets go over the architecture we have for this website.
+Github Actions is a CI/CD tool that is built into Github. It is a great tool to get started. And it has ever growing plethora of actions. In this blog post i want to share with you how to create a CI/CD pipeline with Github Actions. And the example will be the very much this page you are reading right now. First lets go over the architecture we have for this website.
 
 ### Architecture
 
