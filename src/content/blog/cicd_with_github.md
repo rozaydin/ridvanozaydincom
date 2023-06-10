@@ -197,7 +197,3 @@ And that's it. Here is what i see in my repository when i click on the actions t
 ![image github_action](/assets/blog/githubActions/github_action.png)
 
 Thanks for reading! And hope it can improve your daily workflow somehow.
-
-#### References
-
-- <a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html">AWS Elastic Container Registry</a>
