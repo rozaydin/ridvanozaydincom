@@ -4,10 +4,7 @@ on:
   workflow_dispatch: 
 
 env:
-  AWS_REGION: eu-central-1        
-  IAM_ROLE: cicd-role            
-  AWS_BUCKET: ridvanozaydin2
-  AWS_DISTRIBUTION_ID: EZQ3PIUDK09MS 
+  AWS_REGION: eu-central-1               
 
 permissions:
   contents: read
@@ -34,14 +31,14 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        role-to-assume: ${{ env.IAM_ROLE }}
+        role-to-assume: ${{ secrets.IAM_ROLE }}
         role-session-name: cicd-session
         aws-region: ${{ env.AWS_REGION }}
         role-duration-seconds: 900        
     - name: Upload to S3 Bucket
     # A local file will require uploading if the size of the local file is different than the size of the s3 object,
       run: |        
-        aws s3 sync ./dist s3://${{ env.AWS_BUCKET }}
+        aws s3 sync ./dist s3://${{ secrets.AWS_BUCKET }}
     - name: Invalidate Cloudfront Distribution
       run: |
-        aws cloudfront create-invalidation --distribution-id ${{ env.AWS_DISTRIBUTION_ID }} --paths "/*"
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
