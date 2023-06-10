@@ -1,3 +1,3 @@
-# Astro Based Blog
+# ridvanozaydin.com
 
-// TODO
+Personal Blog
