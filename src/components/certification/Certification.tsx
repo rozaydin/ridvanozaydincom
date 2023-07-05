@@ -47,6 +47,18 @@ function Certification(props: CertificationProps) {
                 src="//cdn.credly.com/assets/utilities/embed.js"
               ></script>
             </div>
+
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="38d27d0b-2d01-4104-b91f-492ffe55ae7f"
+              data-share-badge-host="https://www.credly.com"
+            ></div>
+            <script
+              type="text/javascript"
+              async
+              src="//cdn.credly.com/assets/utilities/embed.js"
+            ></script>
           </div>
         </div>
       </div>
