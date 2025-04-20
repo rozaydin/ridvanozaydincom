@@ -26,7 +26,7 @@ b {
   color: #222;
 }
 a {
-  color: #3273dc;
+  color: #030303;
 }
 nav a {
   margin-right: 10px;
@@ -157,4 +157,15 @@ span.highlight {
 .skill {
   font-size: 15px;
   font-weight: 500;
+}
+
+.nav-item {
+  padding: 4px;
+}
+
+.nav-container {
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f1efec;
 }

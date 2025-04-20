@@ -55,7 +55,7 @@ function Links() {
                 <FaRegEnvelope size={iconSize} color="black" />
               </a>
               <span className="link-description">
-                &nbsp;Mail(ridvanozaydin@gmail.com)
+                &nbsp;Mail(ridvan.ozaydin@ridvanozaydin.com)
               </span>
             </div>
           </Col>
