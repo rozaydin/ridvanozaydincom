@@ -12,7 +12,6 @@ function Links() {
 
   return (
     <div>
-      <span className="text-start">Links:</span>
       <Container fluid style={{ marginBottom: "1em" }}>
         <Row>
           <Col>

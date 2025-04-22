@@ -7,7 +7,7 @@ body {
   font-family: Verdana, sans-serif;
   margin: auto;
   padding: 20px;
-  max-width: 65ch;
+  max-width: 80ch;
   text-align: left;
   background-color: #fff;
   word-wrap: break-word;
@@ -152,6 +152,7 @@ span.highlight {
 .flex-item {
   flex: 1;
   align-self: center;
+  border: 1px solid black;
 }
 
 .skill {
@@ -168,4 +169,9 @@ span.highlight {
   border: 1px solid black;
   border-radius: 4px;
   background-color: #f1efec;
+}
+
+.text-justify {
+  text-align: left;
+  font-size: medium;
 }

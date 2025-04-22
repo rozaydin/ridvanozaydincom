@@ -10,7 +10,7 @@ import Certification from "../components/certification/Certification";
 import Testimonials from "../components/testimonials/Testimonials";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
@@ -22,25 +22,33 @@ import Testimonials from "../components/testimonials/Testimonials";
         <img class="me" src="/assets/rozaydin.jpeg" />
         <span class="text-start">Merhaba!</span>
       </div>
+
       <p class="text" style="text-align: justify;">
-        I am a software developer (located in Istanbul/Türkiye), proficient in a
-        wide variety of business applications. Experience in entire software
-        design and development process. Proven expertise with Java, NodeJS and
-        GoLang technologies, designing high performance, highly parallel
-        applications. Over the past years I have involved in creating complex
-        solutions for customers operating in energy, telecommunications, iot and
-        blockchain fields.
+        I’m a software developer based in Istanbul, Türkiye, with deep expertise
+        in end-to-end software design and development. I specialize in building
+        high-performance, scalable applications using Java, Node.js, and Go.
+        Over the years, I’ve delivered complex, tailor-made solutions for
+        clients in the energy, telecommunications, IoT, and blockchain sectors.
+      </p>
+
+      <p>
+        You can view my portfolio from here: <a
+          href="https://talent.toptal.com/resume/developers/ridvan-ozaydin"
+          target="_blank"
+        >
+          <img src="./assets/toptal.avif" style="width: 96px;" />
+        </a>
       </p>
 
       <Services />
 
-      <Testimonials />      
+      <Testimonials />
 
       <Certification />
 
       <Education />
-    </main>
 
-    <Footer />
+      <Footer />
+    </main>
   </body>
 </html>
