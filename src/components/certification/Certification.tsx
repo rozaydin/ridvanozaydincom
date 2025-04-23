@@ -4,13 +4,13 @@ function Certification(props: CertificationProps) {
   return (
     <div>
       <div>
-        <div className="container">
-          <div className="row">
+        <div className="container mt-4 mb-4">
+          <div className="row row-cols-1 g-4">
             <div className="col">
               <span className="text-start">Certificates:</span>
             </div>
           </div>
-          <div className="row">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div
                 data-iframe-width="250"

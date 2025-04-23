@@ -87,14 +87,12 @@ function Services(props: ServicesProps) {
 
       <p className="text">
         I provide expert software development consultancy backed by years of
-        hands-on experience with Java, Go, Node.js, SQL, AWS, and Kubernetes. My
-        team specializes in designing scalable, reliable, and high-performance
+        hands-on experience with Java, Go, Node.js, SQL, AWS, and Kubernetes. I
+        am specialized in designing scalable, reliable, and high-performance
         systems tailored to your business goals. Whether you’re migrating to the
         cloud, building a new platform, or fine-tuning your existing
-        infrastructure, we bring the technical expertise and strategic insight
-        to make it happen. We take a collaborative approach, working closely
-        with you to understand your needs and deliver custom solutions that
-        drive results. Your success is our priority — let’s take your software
+        infrastructure, I bring the technical expertise and strategic insight to
+        make it happen. Your success is my priority — let’s take your software
         to the next level.
       </p>
 
