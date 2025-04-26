@@ -1,0 +1,613 @@
+[
+  {
+    "project": "Loupe — High-Performance Deep Packet Inspection and Protocol Analysis System",
+    "description": "Developed Loupe, a protocol-independent deep packet inspection solution designed to capture Layer 2 Ethernet traffic, reconstruct application-layer messages, and apply dynamic rule-based monitoring and reaction using a custom domain-specific language (DSL). Implemented protocol stacks for UCP, SIP, SMPP, and Radius, and engineered a non-blocking, multithreaded processing architecture interfacing with the Linux Kernel to manage extremely high-volume traffic with minimal latency.",
+    "industry": ["Networking Software"],
+    "summary": "High-performance DPI platform for real-time network traffic inspection and protocol analysis.",
+    "tech": [
+      "JSP",
+      "Java",
+      "C",
+      "JavaScript",
+      "Oracle9g",
+      "Backend",
+      "Architecture",
+      "REST",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "VoIP Infrastructure Solution — MCS 5200 (Carrier-Grade Telecom Support and Optimization)",
+    "description": "Worked closely with Nortel’s global customers, including AT&T, Verizon, and Orange, to support, troubleshoot, and optimize the MCS 5200 VoIP solution across complex, carrier-grade deployments. Resolved issues spanning software configuration, hardware integration, and SIP signaling layers, ensuring high availability, interoperability, and performance for large-scale telecom networks.",
+    "industry": ["Voip", "Networking Software"],
+    "summary": "Carrier-grade VoIP system optimization and troubleshooting for major telecom providers.",
+    "tech": ["Java", "C", "Sip", "Voip", "TCP/IP", "Networking"]
+  },
+  {
+    "project": "Automated Meter Reading System (AMR) — Scalable IoT Data Collection Platform for Utilities",
+    "description": "Designed and developed a geo-redundant Automated Meter Reading (AMR) platform for electric distribution companies, enabling reliable periodic collection of smart meter data from thousands of deployed M2M devices. The system integrates with enterprise accounting and billing software, supporting automated end-of-cycle data ingestion for financial reporting and regulatory compliance, while ensuring high availability across geographically distributed regions.",
+    "industry": ["IoT", "Utilities & Energy Industry"],
+    "summary": "Geo-redundant IoT platform for automated smart meter data collection and reporting.",
+    "tech": [
+      "Java",
+      "Glassfish",
+      "JSF",
+      "Oracle9g",
+      "Javascript",
+      "Rest",
+      "Architecture",
+      "Solution Architecture",
+      "Full Stack Development",
+      "REST Apis"
+    ]
+  },
+  {
+    "project": "Mission Management System (MMS) for Maritime Patrol Vessels — Real-Time Combat System",
+    "description": "Developed a compact, cost-effective on-board combat management system for small naval platforms such as coast guard vessels and patrol boats. MMS fuses incoming sensor data from shipboard radar, AIS, and electro-optic systems to create a real-time operational picture for mission operators, enabling rapid situational awareness and tactical decision-making. Built with a modular architecture using reactive programming techniques to process real-time data streams efficiently and deliver a highly responsive operator interface.",
+    "industry": ["Government", "Networking Software", "Defense Industry"],
+    "summary": "Real-time naval combat management system fusing radar and sensor data for situational awareness.",
+    "tech": [
+      "Java",
+      "Netbeans RCP",
+      "ReactiveX",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "REST APIs",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "Auxiliary Power Management System for Naval Platforms — Emergency Power Resilience System",
+    "description": "Designed and developed a critical auxiliary power management system for naval platforms to ensure system survivability in the event of catastrophic main power failures. The system manages high-capacity, replaceable battery packs distributed across the vessel, integrates seamlessly with shipboard integrated bridge control systems (EPKİS), and features a local Human-Machine Interface (HMI) built for real-time monitoring and operational control. Leveraging SNMP-based communication for battery telemetry and coordination, the system delivers mission-critical reliability under extreme conditions.",
+    "industry": ["Networking Software", "Government / Defense Industry"],
+    "summary": "Mission-critical battery backup system ensuring resilience during naval power failures.",
+    "tech": [
+      "JavaFX",
+      "SNMP",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "FullStack Development"
+    ]
+  },
+  {
+    "project": "Firefighting and Damage Control System — Real-Time Emergency Response Platform",
+    "description": "Developed a real-time emergency management system to support firefighting and damage control operations aboard ships and large structures. The system dynamically calculates evacuation routes based on live conditions, visualizes paths over detailed 3D models, and provides step-by-step kill card guidance to personnel across multiple synchronized screens. Designed for mission-critical reliability with real-time updates to enhance safety and operational coordination during crises.",
+    "industry": ["Software", "Networking Software"],
+    "summary": "Real-time evacuation guidance and firefighting support platform for ships and large structures.",
+    "tech": [
+      "C#",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "Full-stack Development"
+    ]
+  },
+  {
+    "project": "Onboard CCTV Management System for Naval Platforms — Real-Time Video Monitoring and Recording Solution",
+    "description": "Developed a closed-circuit video management system for naval platforms, enabling 24/7 monitoring and recording of onboard video sources, including cameras and operational consoles, to secure NAS storage devices. Implemented a user-privilege-based access model for real-time video streaming and large-screen display mirroring, ensuring enhanced navigational support and operational awareness. Built with distributed real-time data communication (DDS), professional video encoding (ffmpeg, Matrox Video SDK), and a high-availability architecture leveraging Hazelcast and Spring Boot.",
+    "industry": [
+      "Video Streaming",
+      "Networking Software",
+      "Video & Audio Processing"
+    ],
+    "summary": "24/7 onboard video monitoring and recording system for naval platforms with real-time access control.",
+    "tech": [
+      "Angular",
+      "MongoDB",
+      "Spring Boot",
+      "Hazelcast",
+      "ffmpeg",
+      "Matrox Video",
+      "DDS (Data Distribution System)",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "REST",
+      "Spring",
+      "Full-stack Development"
+    ]
+  },
+  {
+    "project": "Federated Security Shield (FedSS) — Cross-Border Maritime Security Intelligence Platform",
+    "description": "Societies around the Baltic, North, and Mediterranean seas face serious maritime problems as a result of increasing vessel traffic. These societies have the need and higher demand to preserve safety and security and to respond quickly to possible incidents. In Europe, such incidents often affect multiple countries and societies. Therefore international cooperation is essential to resolve these problems. Currently, information and invaluable intelligence from various third-party sources are potentially available. The FedSS project aims to access and incorporate this tremendous amount of structured and unstructured data into security management systems. The main goal is to provide all partners with a new information-handling capability disclosing data sources on a secure need-to-share basis that uses semantic information techniques instead of syntactic protocols and where the information-handling capability is visualised via rich internet applications (RIA) on tablets.",
+    "industry": ["Software", "Networking Software"],
+    "summary": "Cross-border maritime security intelligence platform integrating structured and unstructured data.",
+    "tech": [
+      "JavaScript",
+      "LeafletJS",
+      "Mapbox",
+      "OpenStreetMap",
+      "PostgreSQL",
+      "NodeJS",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "REST",
+      "Spring",
+      "JSON",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "Authentication Gateway — Secure Device Authentication Platform for Set-Top Boxes",
+    "description": "Developed a secure authentication gateway to decipher device credentials and validate set-top box privileges against a remote server for Ericsson. Engineered using enterprise-grade Java technologies with robust cryptographic mechanisms and X.509 certificate-based secure communication. Successfully surpassed Ericsson’s stringent code coverage and performance benchmarks, delivering a high-quality, production-ready solution for large-scale deployment.",
+    "industry": [
+      "Security Software",
+      "Networking Software",
+      "Software As a Service (Saas)"
+    ],
+    "summary": "Secure device authentication gateway with cryptographic validation for large-scale deployments.",
+    "tech": [
+      "Java",
+      "Cryptography",
+      "Jakarta EE",
+      "Backend",
+      "Architecture",
+      "Software Architecture",
+      "X.509 Certificates",
+      "REST",
+      "Spring"
+    ]
+  },
+  {
+    "project": "PLC Communication Gateway — Secure Remote Access Platform for Industrial Devices",
+    "description": "Designed and developed a secure hardware-software solution for remote access, monitoring, and software updating of PLC (Programmable Logic Controller) devices, funded by the Turkish Ministry of Science, Industry, and Technology. Built an end-to-end system combining a Raspberry Pi-based hardware gateway, cloud-hosted backend services, and a secure web interface, enabling real-time PLC health monitoring and safe remote firmware management over encrypted connections.",
+    "industry": ["Networking Software", "IoT"],
+    "summary": "Secure remote access and real-time monitoring solution for industrial PLC devices.",
+    "tech": [
+      "Angular",
+      "Amazon Web Services (AWS)",
+      "MySQL",
+      "NGINX",
+      "Raspberry Pi",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "X.509 Certificates",
+      "REST",
+      "Spring"
+    ]
+  },
+  {
+    "project": "IGO4Health Portal — End-to-End Healthcare Tourism Platform",
+    "description": "Designed and delivered a full-stack, end-to-end health tourism platform including a web portal, mobile applications, and hospital integration interfaces. IGO4Health enables users worldwide to book healthcare services alongside transportation, hotel accommodation, and cultural tours in a seamless, secure, and user-friendly experience. Developed for international markets with a focus on scalability, security, and multi-system interoperability.",
+    "industry": [
+      "Healthcare Services",
+      "Healthcare Software",
+      "Software As a Service (SaaS)"
+    ],
+    "summary": "End-to-end healthcare tourism platform integrating hospitals, travel, and accommodation services.",
+    "tech": [
+      "AngularJS",
+      "Ionic",
+      "MySQL",
+      "NGINX",
+      "Node.js",
+      "JavaScript",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "X.509 Certificates",
+      "REST",
+      "JSON",
+      "FullStack Development"
+    ]
+  },
+  {
+    "project": "Kariyerli Anne — Work-from-Home Portal for Mothers",
+    "description": "Designed and developed a SaaS platform hosted on AWS Cloud to empower stay-at-home mothers with access to remote job opportunities, allowing them to continue their professional careers while caring for their children. Implemented secure, scalable fullstack architecture with mobile-responsive web interfaces, automated CI/CD pipelines, and global content distribution via AWS Cloudfront CDN.",
+    "industry": ["Custom Software IT Services", "Software As a Service (SaaS)"],
+    "summary": "SaaS platform connecting stay-at-home mothers with remote work opportunities.",
+    "tech": [
+      "Amazon Web Services (AWS)",
+      "Angular",
+      "MySQL",
+      "Amazon Cloudfront CDN",
+      "Amazon EC2",
+      "Node.js",
+      "JavaScript",
+      "GitLab CI/CD",
+      "Bacnend",
+      "Architecture",
+      "Solution Architecture",
+      "X.509 Certificates",
+      "Webpack",
+      "REST",
+      "JSON",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "Uber Klik",
+    "description": "Developed a SaaS automation platform enabling Uber car companies to auto-accept ride requests, improving driver efficiency and increasing revenue potential. Delivered a scalable multi-tenant solution where company owners could create and manage separate branches, rent the service, and generate recurring income. Built using a cloud-native stack optimized for reliability, scalability, and mobile accessibility.",
+    "industry": ["Car & Trcuk Rental", "Software As a Service (SaaS)"],
+    "summary": "Cloud-native automation platform for Uber car companies to auto-accept ride requests.",
+    "tech": [
+      "Amazon Web Services (AWS)",
+      "Amazon DynamoDB",
+      "Ionic",
+      "Vue",
+      "Node.js",
+      "JavaScript",
+      "Bacnend",
+      "Architecture",
+      "Solution Architecture",
+      "Webpack",
+      "REST",
+      "JSON",
+      "Fullstack Development"
+    ]
+  },
+  {
+    "project": "Siemens Mindsphere",
+    "description": "Contributed to the development of Siemens MindSphere, a large-scale industrial IoT platform that enables device connectivity, data ingestion, real-time analytics, alarm management, and scalable cloud services. Developed microservices-based backend systems leveraging Java (Spring Boot), Node.js, and serverless AWS architectures, ensuring secure, high-availability agent communication and robust data processing pipelines.",
+    "industry": ["Internet Of Things", "Software As A Service (SaaS)"],
+    "summary": "Industrial IoT platform enabling device connectivity, data ingestion, and scalable cloud services.",
+    "tech": [
+      "Amazon Web Services (AWS)",
+      "Azure",
+      "Cucember",
+      "Gherkin",
+      "Postman",
+      "RabbitMQ",
+      "Serverless",
+      "AWS Lambda",
+      "Java",
+      "PostgreSQL",
+      "SpringBoot",
+      "TypeSCript",
+      "Node.js",
+      "JavaScript",
+      "Backend",
+      "Architecture",
+      "Solution Architecture",
+      "X.509 Certificates",
+      "REST",
+      "Spring",
+      "JSON"
+    ]
+  },
+  {
+    "project": "Media Server",
+    "description": "Developed a high-performance Media Server optimized for custom multi-core hardware, serving as a SIP Back-to-Back User Agent (B2BUA) to manage call setup, call transfers (basic and blind), and music-on-hold (MOH) services. Designed for ultra-low latency and high concurrency, the Media Server efficiently orchestrates real-time voice interactions for large-scale call center environments.",
+    "industry": ["Call Center & Business Centers", "Networking Software"],
+    "summary": "High-performance SIP media server optimized for real-time voice interactions at scale.",
+    "tech": [
+      "SIP",
+      "C++",
+      "CMake",
+      "Backend",
+      "Architecture",
+      "Software Architecture",
+      "REST"
+    ]
+  },
+  {
+    "project": "Chat Feature Server (CFS)",
+    "description": "Designed and developed the Chat Feature Server (CFS), a real-time messaging integration layer connecting XMPP-based messaging with Afiniti’s MegaACD call center solution. Implemented a robust backend leveraging C++, Java (via JNI), and Openfire to manage XMPP communications, while exposing RESTful APIs to allow seamless messaging integration for mobile and web applications, enhancing omnichannel customer engagement capabilities.",
+    "industry": ["Networking Software"],
+    "summary": "Real-time messaging integration server connecting XMPP with call center platforms.",
+    "tech": [
+      "XMPP",
+      "C++",
+      "JNI",
+      "Java",
+      "CMake",
+      "Openfire",
+      "Backend",
+      "Architecture",
+      "Software Architecture",
+      "REST"
+    ]
+  },
+  {
+    "project": "Mega ACD",
+    "description": "Contributed to the development of Mega ACD, a next-generation call center solution jointly developed by Avaya and Afiniti, engineered for ultra-low latency and high throughput. Built using a microservices architecture with inter-service communication over shared memory queues, Mega ACD redefines performance standards in the call center industry by optimizing service interactions for minimal latency and maximum scalability.",
+    "industry": ["Call Center & Business Centers", "Networking Software"],
+    "summary": "Ultra-low latency call center platform based on microservices and shared memory communication.",
+    "tech": [
+      "C++",
+      "CMake",
+      "Linux Kernel",
+      "SIP",
+      "Backend",
+      "Architecture",
+      "Solution Architecture"
+    ]
+  },
+  {
+    "project": "Handshake Wallet Test Suite",
+    "description": "Designed and developed a comprehensive Behavior-Driven Development (BDD) test suite to automatically validate the functionality and security of the Handshake blockchain wallet software. Implemented using Gherkin for human-readable test cases and GoLang for robust, concurrent test execution, the suite provided critical assurance for wallet behavior amid extensive customizations, safeguarding financial transactions and user assets.",
+    "industry": ["Blockchain"],
+    "summary": "BDD-based automated validation suite ensuring security and reliability of Handshake wallets.",
+    "tech": ["GO", "Gherkin", "Blockchain", "Docker", "Backend", "HNS"]
+  },
+  {
+    "project": "Namebase.io",
+    "description": "Developed a decentralized naming service and NFT auction platform inspired by the Handshake protocol, enabling users to securely buy, sell, and manage domain names without relying on traditional certificate authorities. Built a full-stack web application featuring blockchain integration for NFT handling, seamless auction processes, and secure name ownership transfers.",
+    "industry": ["Blockchain", "Software as a Service (SaaS)"],
+    "summary": "Decentralized domain name marketplace and NFT auction platform based on Handshake protocol.",
+    "tech": [
+      "React",
+      "Node.js",
+      "Blockchain",
+      "Amazon Web Services (AWS)",
+      "Sequelize",
+      "PostgreSQL",
+      "NFTs",
+      "Flow",
+      "JavaScript",
+      "REST",
+      "Webpack",
+      "Backend",
+      "Architecture",
+      "JSON",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "Handshake Wallet",
+    "description": "Extended an existing open-source Handshake wallet to support high-throughput environments by implementing high-volume transaction handling and transaction batching techniques. Optimized bandwidth usage and improved transaction efficiency, enabling the wallet to operate reliably under heavy blockchain interaction loads. Delivered clean, maintainable backend improvements with comprehensive API documentation using JSDoc.",
+    "industry": ["Blockchain"],
+    "summary": "Enhanced open-source wallet supporting high-volume Handshake blockchain transactions.",
+    "tech": [
+      "Amazon Web Services (AWS)",
+      "JSDoc",
+      "Blockchain",
+      "Node.js",
+      "JavaScript",
+      "Backend",
+      "REST"
+    ]
+  },
+  {
+    "project": "HSD Proxy",
+    "description": "Developed a proxy service to aggregate and abstract multiple deployed Handshake wallets into a unified API endpoint, enabling backend systems to seamlessly interact with a wallet farm as a single entity. HSD Proxy significantly improved scalability by offloading the complexity of wallet management from the core backend application, increasing system throughput and operational simplicity.",
+    "industry": ["Blockchain"],
+    "summary": "Proxy service aggregating multiple blockchain wallets into a unified API for backend integration.",
+    "tech": [
+      "Go",
+      "Amazon DynamoDB",
+      "Amazon Web Services (AWS)",
+      "Backend",
+      "REST"
+    ]
+  },
+  {
+    "project": "Call Manager",
+    "description": "Call Manager is a comprehensive interaction recording solution for quality assurance, security, and customer service environments. It easily adapts to the unique operational requirements of various call centers, supports any telephony environment, provides comprehensive multi-site call recording, and separates customer and agent speech through stereo recording. It includes IP and phone number-based agent filtering and blocking features. It supports multiple UC/PBX vendors, including call centers and enterprises.",
+    "industry": ["Networking Software"],
+    "summary": "Comprehensive multi-site call recording solution with agent filtering and multi-vendor support.",
+    "tech": [
+      "Java",
+      "SpringBoot",
+      "Software Architecture",
+      "Backend",
+      "Architecture"
+    ]
+  },
+  {
+    "project": "Starling WiFi Platform Kubernetes Migration",
+    "description": "Led the end-to-end migration of the Starling WiFi Platform — a large-scale monolithic system providing next-generation Guest WiFi analytics, social WiFi engagement, and real-time location services (RTLS) — from AWS EC2 instances to fully containerized Kubernetes environments across AWS EKS and Azure AKS. The project involved: Full containerization of legacy services (PHP, Symfony, RabbitMQ, MongoDB, MySQL). Configuration management migration using Kubernetes ConfigMaps and Secrets. Ingress modernization, implementing NGINX Ingress controllers with TLS rules and automated SSL certificate handling via Let’s Encrypt. Storage optimization, mounting shared drives to pods through CNI plugins. Load balancing architecture, utilizing AWS Application Load Balancers (ALB) for Kubernetes ingress. Additionally: Developed infrastructure-as-code (IaC) solutions with Terraform and Helm, enabling full cluster provisioning and application deployment across multiple Kubernetes providers — cloud or on-premises — within minutes. Implemented centralized monitoring and KPI tracking solutions to ensure operational transparency, system health, and scalability. This migration not only enabled multi-cloud portability and auto-scalability, but also dramatically reduced deployment times, improved resilience, and laid the foundation for continuous integration and continuous delivery (CI/CD) pipelines.",
+    "industry": ["IoT", "Networking Software", "Software as a Service (SaaS)"],
+    "summary": "Full migration of Starling WiFi Platform to Kubernetes with multi-cloud scalability and resilience.",
+    "tech": [
+      "Kubernetes",
+      "Amazon Web Services (AWS)",
+      "Software Architecture",
+      "Cloud Architecture",
+      "MySQL",
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "Amazon Elastic Container Registry (ECR)",
+      "Backend",
+      "Helm",
+      "REST",
+      "Microsoft SQL Server",
+      "Apache Tomcat",
+      "JSON",
+      "Azure Kubernetes Service (AKS)",
+      "AWS EKS",
+      "Terraform",
+      "Let's Encrypt",
+      "X.509 Certificates",
+      "Azure",
+      "Solution Architecture"
+    ]
+  },
+  {
+    "project": "EmreFileStorage — Document Management System",
+    "description": "Developed a secure, scalable file management system leveraging AWS S3 as the backend storage layer, supporting fine-grained access control, audit log retrieval, and customer access through secure credential systems. Implemented a cost-optimized, low-maintenance architecture with a Progressive Web Application (PWA) design, hosted on a lightweight single-server setup with full CI/CD automation and SSL-secured communications.",
+    "industry": ["Quality Auditing"],
+    "summary": "Cost-optimized, secure document management system built on AWS S3 and PWA architecture.",
+    "tech": [
+      "Node.js",
+      "React",
+      "Ionic",
+      "AWS SDK",
+      "AWS S3",
+      "Docker",
+      "NGINX",
+      "Ubuntu Server",
+      "Systemd",
+      "PWA",
+      "Knex.js",
+      "Express.js",
+      "JWT",
+      "Digital Ocean",
+      "X.509 Certificates",
+      "Let's Encrypt",
+      "Webpack",
+      "REST",
+      "JSON",
+      "Full Stack Development"
+    ]
+  },
+  {
+    "project": "Tellme Application",
+    "description": "Developed a secure, cross-platform feedback application enabling employees to request and share feedback with their teams and colleagues, promoting a culture of continuous improvement and engagement. The system consists of a web application and mobile apps for iOS and Android. Built using a modern hybrid development approach (Ionic, Angular) with backend services deployed on Azure Kubernetes Service (AKS) for scalability and high availability.",
+    "industry": ["Financial Services"],
+    "summary": "Cross-platform employee feedback collection app deployed on scalable Kubernetes infrastructure.",
+    "tech": [
+      "Java",
+      "Ionic",
+      "Azure Kubernetes Service (AKS)",
+      "Jenkins",
+      "Angular",
+      "Microsoft SQL Server",
+      "Apache Tomcat",
+      "Spring Boot",
+      "REST",
+      "SMTP",
+      "X.509 Certificates",
+      "Let's Encrypt",
+      "Docker",
+      "JSON",
+      "FullStack Development"
+    ]
+  },
+  {
+    "project": "Order Book Management System",
+    "description": "Developed a distributed Order Book Management System to power a trading exchange, enabling dynamic management and real-time updates of the order book across multiple services. Designed using a microservices architecture communicating over a NATS service bus, the system supports configurable trade bots and integrates with external liquidity providers using the FIX protocol. Delivered centralized monitoring, automation, and scaling capabilities with a fully containerized infrastructure orchestrated on Kubernetes and AWS.",
+    "industry": ["Cryptocurrency", "Finance"],
+    "summary": "Distributed crypto exchange order book system with microservices, FIX protocol, and real-time updates.",
+    "tech": [
+      "Java21",
+      "Node.js",
+      "React",
+      "Ionic",
+      "NATS",
+      "Docker",
+      "Docker Compose",
+      "Kubernetes",
+      "AWS EC2",
+      "AWS Cloudwatch",
+      "Prometheus",
+      "Grafana",
+      "Telegram Bots",
+      "FIX Protocol",
+      "Terraform",
+      "GitHub",
+      "AWS ECR",
+      "Express.js",
+      "Knex.js",
+      "JDBI",
+      "Helidon",
+      "JSON",
+      "FullStack Development"
+    ]
+  },
+  {
+    "project": "Garbage Chute Management System",
+    "description": "Designed and developed a smart garbage chute management solution featuring custom electronic control cards and a centralized server architecture. Implemented WiFi-based communication across multiple apartment units to enable rule-based control of garbage chute hatch doors without the need for additional wiring, ensuring scalable and cost-effective installations. Delivered a mobile-optimized Progressive Web Application (PWA) accessible via smartphones and web browsers for streamlined real-time monitoring and management.",
+    "industry": ["IoT"],
+    "summary": "Smart IoT-based garbage chute control system with wireless communication and mobile monitoring.",
+    "tech": [
+      "Docker",
+      "Docker Compose",
+      "Arduino",
+      "JDBI",
+      "Java",
+      "Java23",
+      "SQLite",
+      "MQTT",
+      "Helidon",
+      "ESP32",
+      "Ionic",
+      "PWA",
+      "JavaFX",
+      "JavaFX CSS",
+      "FullStack Development",
+      "React",
+      "OTA"
+    ]
+  },
+  {
+    "project": "Sales Forecasting Application",
+    "description": "Developed an AI-driven Sales Forecasting Platform leveraging historical sales data to predict future demand trends, optimize inventory planning, and improve revenue forecasting accuracy for major apparel retailers. Built scalable cloud-native architecture using AWS services, combined with robust full-stack development to ensure high availability, performance, and user-friendly reporting interfaces.",
+    "industry": [
+      "Textiles & Apparel",
+      "Retail",
+      "Apparel & Accessories Retail"
+    ],
+    "summary": "AI-powered sales forecasting platform leveraging historical data for demand and inventory optimization.",
+    "tech": [
+      "Architecture",
+      "AWS",
+      "Python",
+      "Django",
+      "AWS Lambda",
+      "JavaScript",
+      "Node.js",
+      "Troubleshooting",
+      "AWS API GW",
+      "Oracle",
+      "Software Architecture",
+      "Application Architecture",
+      "Emterprice Application Architecture",
+      "Web Application Architecture",
+      "REST",
+      "JSON",
+      "FullStack Development",
+      "Ionic",
+      "React"
+    ]
+  },
+  {
+    "project": "Knowledge Management System",
+    "description": "Web Portal For a Large Enterprise",
+    "industry": ["Research & Development"],
+    "summary": "Enterprise knowledge portal integrating multiple backend systems for research and collaboration.",
+    "tech": [
+      "Java",
+      "React",
+      "AWS",
+      "FullStack",
+      "Cloudflare",
+      "Jira",
+      "Confluence",
+      "Dynatrace",
+      "Splunk",
+      "Java17",
+      "Apache Struts 2",
+      "SYNK",
+      "Docker",
+      "Apache Tomcat",
+      "Microfrontends",
+      "Figma",
+      "OAuth2",
+      "AWS Cognito",
+      "Kubernetes",
+      "ArgoCD",
+      "Spring 6",
+      "Microservices",
+      "REST",
+      "PostgreSQL",
+      "Node.JS",
+      "JavaScript"
+    ]
+  },
+  {
+    "project": "Promo Planning Application",
+    "description": "A Promo Planning Application for a large enterprise, that uses historic data to come up with optimal promo calendars for various products.",
+    "industry": ["Retail"],
+    "summary": "AI-driven platform optimizing promotional calendars using historical sales data and forecasting models.",
+    "tech": [
+      "React",
+      "NestJS",
+      "AI",
+      "LLM",
+      "ARIMA Model",
+      "MicroServices",
+      "REST",
+      "PostgreSQL",
+      "GCP",
+      "Kubernetes",
+      "Google Vertex API",
+      "Terraform"
+    ]
+  }
+]
