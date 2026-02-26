@@ -3,23 +3,17 @@ import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 ---
 
-<header>
-  <h4>
-    {SITE_TITLE}
-  </h4>
-  <nav class="nav-container">
-    <HeaderLink class="nav-item" href="/">Home</HeaderLink>
-    <HeaderLink class="nav-item" href="/portfolio">Portfolio</HeaderLink>
-    <HeaderLink class="nav-item" href="/contact">Contact</HeaderLink>
-    <HeaderLink class="nav-item" href="/blog">Blog</HeaderLink>
-    <HeaderLink class="nav-item" href="/about">History</HeaderLink>
-  </nav>
+<header class="mb-12">
+  <div class="flex items-center justify-between py-6">
+    <a href="/" class="text-lg font-semibold text-gray-900 tracking-tight hover:text-gray-900 no-underline">
+      {SITE_TITLE}
+    </a>
+    <nav class="flex items-center gap-1 bg-gray-50 rounded-full px-2 py-1.5 border border-gray-100">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/portfolio">Portfolio</HeaderLink>
+      <HeaderLink href="/contact">Contact</HeaderLink>
+      <HeaderLink href="/blog">Blog</HeaderLink>
+      <HeaderLink href="/about">History</HeaderLink>
+    </nav>
+  </div>
 </header>
-<style>
-  header {
-    margin: 0em 0 2em;
-  }
-  h2 {
-    margin: 0.5em 0;
-  }
-</style>

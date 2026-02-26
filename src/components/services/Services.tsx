@@ -1,114 +1,70 @@
 export type ServicesProps = {};
 
+const services = [
+  {
+    title: "Software Consultancy",
+    description:
+      "Strategic guidance backed by hands-on experience with Java, Go, Node.js, and SQL.",
+  },
+  {
+    title: "Custom Software Development",
+    description:
+      "Tailored solutions aligned with your unique business needs.",
+  },
+  {
+    title: "Cloud Solutions",
+    description:
+      "Design, migration, and optimization on AWS — scalable and cost-effective.",
+  },
+  {
+    title: "Architecture & Scalability",
+    description:
+      "Build reliable, high-performance systems using Kubernetes and modern best practices.",
+  },
+  {
+    title: "System Optimization",
+    description:
+      "Enhance performance, reliability, and maintainability of your existing stack.",
+  },
+  {
+    title: "End-to-End Collaboration",
+    description:
+      "Close partnership and clear communication throughout the entire development lifecycle.",
+  },
+];
+
 function Services(props: ServicesProps) {
   return (
-    <div>
-      <span className="text-start">Services:</span>
+    <section>
+      <h2 className="text-lg font-semibold text-gray-900 mb-6">Services</h2>
 
-      <div className="container mt-4 mb-4">
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">Software Consultancy</h5>
-                <p className="text-justify">
-                  Strategic guidance backed by hands-on experience with Java,
-                  Go, Node.js, and SQL.
-                </p>
-              </div>
-            </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {services.map((service, i) => (
+          <div
+            key={i}
+            className="group p-6 rounded-xl border border-gray-100 bg-white shadow-card hover:shadow-card-hover hover:border-gray-200 transition-all duration-300"
+          >
+            <h3 className="text-base font-semibold text-gray-900 mb-2">
+              {service.title}
+            </h3>
+            <p className="text-sm text-gray-500 leading-relaxed">
+              {service.description}
+            </p>
           </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">
-                  Custom Software Development
-                </h5>
-                <p className="text-justify">
-                  Tailored solutions aligned with your unique business needs.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">Cloud Solutions</h5>
-                <p className="text-justify">
-                  Design, migration, and optimization on AWS — scalable and
-                  cost-effective.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">
-                  Architecture & Scalability
-                </h5>
-                <p className="text-justify">
-                  Build reliable, high-performance systems using Kubernetes and
-                  modern best practices.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">System Optimization</h5>
-                <p className="text-justify">
-                  Enhance performance, reliability, and maintainability of your
-                  existing stack.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">
-                  End-to-End Collaboration
-                </h5>
-                <p className="text-justify">
-                  Close partnership and clear communication throughout the
-                  entire development lifecycle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
 
-      <p className="text">
+      <p className="mt-8 text-gray-600 leading-relaxed">
         I provide expert software development consultancy backed by years of
         hands-on experience with Java, Go, Node.js, SQL, AWS, and Kubernetes. I
         am specialized in designing scalable, reliable, and high-performance
-        systems tailored to your business goals. Whether you’re migrating to the
+        systems tailored to your business goals. Whether you're migrating to the
         cloud, building a new platform, or fine-tuning your existing
         infrastructure, I bring the technical expertise and strategic insight to
-        make it happen. Your success is my priority — let’s take your software
+        make it happen. Your success is my priority — let's take your software
         to the next level.
       </p>
-
-      {/* <div className="flex-container">
-        <span className="flex-item skill">java</span>
-        <span className="flex-item skill">nodejs</span>
-        <span className="flex-item skill">golang</span>
-        <span className="flex-item skill">react</span>
-        <span className="flex-item skill">ionic</span>
-        <span className="flex-item skill">sql</span>
-        <span className="flex-item skill">postgresql</span>
-        <span className="flex-item skill">sqlite</span>
-        <span className="flex-item skill">aws</span>
-        <span className="flex-item skill">kubernetes</span>
-      </div> */}
-    </div>
+    </section>
   );
 }
 

@@ -6,23 +6,27 @@ import Company from '../components/company/Company';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import companies from '../data/companies.json';
 import Experience from '../components/experience/Experience';
+import CookieConsent from '../components/CookieConsent.astro';
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-    <body>
-      <Header title={SITE_TITLE} />
-
-      <Experience/>
-      
-      { 
-         companies.map(({name, company, url, position, period}) => <Company company={company} name={name} url={url} position={position} period={period} />)
-      }      
-
-      <Footer/>
-    </body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="min-h-screen">
+    <div class="max-w-content mx-auto px-6">
+      <Header />
+      <main class="space-y-4">
+        <Experience />
+        {
+          companies.map(({ name, company, url, position, period }) => (
+            <Company company={company} name={name} url={url} position={position} period={period} />
+          ))
+        }
+      </main>
+      <Footer />
+    </div>
+    <CookieConsent />
+  </body>
 </html>

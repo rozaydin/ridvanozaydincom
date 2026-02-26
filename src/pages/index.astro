@@ -8,6 +8,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Certification from "../components/certification/Certification";
 import Testimonials from "../components/testimonials/Testimonials";
 import Hireme from "../components/hireme/Hireme";
+import CookieConsent from "../components/CookieConsent.astro";
 ---
 
 <!doctype html>
@@ -15,33 +16,38 @@ import Hireme from "../components/hireme/Hireme";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body>
-    <Header title={SITE_TITLE} />
-    <main>
-      <div>
-        <img class="me" src="/assets/rozaydin.jpeg" />
-        <span class="text-start">Merhaba!</span>
-      </div>
+  <body class="min-h-screen">
+    <div class="max-w-content mx-auto px-6">
+      <Header />
+      <main class="space-y-16">
+        <section class="flex flex-col items-center text-center">
+          <img
+            class="w-32 h-32 rounded-full object-cover shadow-card mb-6"
+            src="/assets/rozaydin.jpeg"
+            alt="Ridvan Ozaydin"
+          />
+          <h1 class="text-2xl font-semibold text-gray-900 mb-2">Merhaba!</h1>
+          <p class="max-w-2xl text-gray-600 leading-relaxed">
+            I'm a software developer, with deep expertise in end-to-end software
+            design and development. I specialize in building high-performance,
+            scalable applications using Java, Node.js, and Go. Over the years, I've
+            delivered complex, tailor-made solutions for clients in the energy,
+            telecommunications, IoT, and blockchain sectors.
+          </p>
+        </section>
 
-      <p class="text" style="text-align: justify;">
-        I’m a software developer, with deep expertise in end-to-end software
-        design and development. I specialize in building high-performance,
-        scalable applications using Java, Node.js, and Go. Over the years, I’ve
-        delivered complex, tailor-made solutions for clients in the energy,
-        telecommunications, IoT, and blockchain sectors.
-      </p>
+        <Hireme />
 
-      <Hireme />
+        <Services />
 
-      <Services />
+        <Certification />
 
-      <Certification />
+        <Testimonials />
 
-      <Testimonials />
-
-      <Education />
-
+        <Education />
+      </main>
       <Footer />
-    </main>
+    </div>
+    <CookieConsent />
   </body>
 </html>

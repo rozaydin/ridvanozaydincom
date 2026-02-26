@@ -1,7 +1,4 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/global.css";
 
 export interface Props {
@@ -11,7 +8,6 @@ export interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-
 const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 ---
 
@@ -23,28 +19,16 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
-<!-- Roboto Font -->
+
+<!-- Inter Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-  href="http://fonts.googleapis.com/css?family=Roboto"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
   rel="stylesheet"
-  type="text/css"
 />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MK2HWQJWYY"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag("js", new Date());
-  gtag("config", "G-MK2HWQJWYY");
-</script>

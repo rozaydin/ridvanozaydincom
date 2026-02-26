@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import PortfolioTable from "../components/portfolio/Portfolio";
 import projects from "../data/projects.json";
+import CookieConsent from "../components/CookieConsent.astro";
 ---
 
 <!doctype html>
@@ -12,11 +13,14 @@ import projects from "../data/projects.json";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body>
-    <Header title={SITE_TITLE} />
-
-    <PortfolioTable projects={projects} />
-
-    <Footer />
+  <body class="min-h-screen">
+    <div class="max-w-content mx-auto px-6">
+      <Header />
+      <main>
+        <PortfolioTable projects={projects} />
+      </main>
+      <Footer />
+    </div>
+    <CookieConsent />
   </body>
 </html>

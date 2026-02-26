@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm uninstall bootstrap react-bootstrap)",
+      "Bash(npm run build)"
+    ]
+  }
+}

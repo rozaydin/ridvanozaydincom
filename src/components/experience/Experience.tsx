@@ -1,24 +1,28 @@
 function Experience() {
   const totalYears = new Date().getFullYear() - 2007;
+
   return (
-    <div className="shadow p-3 mb-5 bg-body rounded">
-      <div style={{ height: "60px !important" }} className="twocell">
-        <div className="part">
-          <div>
-            <span className="experience">
-              Developing since: <span className="highlight">2007</span>
-            </span>
-            <span className="experience">
-              <span className="highlight">{totalYears}</span> years of
-              experience
-            </span>
-          </div>
+    <section className="rounded-xl border border-gray-100 bg-white shadow-card p-6 mb-4">
+      <div className="flex items-center justify-between">
+        <div className="space-y-1">
+          <p className="text-gray-600">
+            Developing since{" "}
+            <span className="text-primary-600 font-semibold text-xl">2007</span>
+          </p>
+          <p className="text-gray-600">
+            <span className="text-primary-600 font-semibold text-xl">
+              {totalYears}
+            </span>{" "}
+            years of experience
+          </p>
         </div>
-        <div className="part">
-          <img className="hacker" src="/assets/hacker.png" />
-        </div>
+        <img
+          className="w-20 h-20 opacity-80"
+          src="/assets/hacker.png"
+          alt="Developer"
+        />
       </div>
-    </div>
+    </section>
   );
 }
 

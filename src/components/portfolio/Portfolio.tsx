@@ -1,5 +1,3 @@
-import React from "react";
-
 type Project = {
   project: string;
   description: string;
@@ -14,35 +12,39 @@ type Props = {
 
 export default function PortfolioTable({ projects }: Props) {
   return (
-    <div className="container my-5">
-      <h2 className="mb-4 text-center">Project Portfolio</h2>
-      <div className="table-responsive">
-        <table className="table table-striped table-bordered align-middle">
-          <thead className="table-light">
-            <tr>
-              <th>Project</th>
-              <th>Summary</th>
+    <section className="py-8">
+      <h1 className="text-2xl font-semibold text-gray-900 mb-8 text-center">
+        Project Portfolio
+      </h1>
+      <div className="overflow-x-auto">
+        <table className="w-full">
+          <thead>
+            <tr className="border-b border-gray-200">
+              <th className="text-left py-3 px-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
+                Project
+              </th>
+              <th className="text-left py-3 px-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
+                Summary
+              </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="divide-y divide-gray-100">
             {projects.map((project, index) => (
-              <tr key={index}>
-                <td>{project.project}</td>
-                <td>{project.summary}</td>
+              <tr
+                key={index}
+                className="hover:bg-gray-50 transition-colors duration-150"
+              >
+                <td className="py-3 px-4 text-sm font-medium text-gray-900 align-top whitespace-nowrap">
+                  {project.project}
+                </td>
+                <td className="py-3 px-4 text-sm text-gray-500">
+                  {project.summary}
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <style>{`
-        .summary-text {
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
-      `}</style>
-    </div>
+    </section>
   );
 }
