@@ -38,7 +38,7 @@ const posts = (await getCollection('blog')).sort(
                   </time>
                   <a
                     class="text-gray-800 hover:text-primary-600 transition-colors duration-200"
-                    href={`/blog/${post.slug}/`}
+                    href={`/blog/${post.id}/`}
                   >
                     {post.data.title}
                   </a>
